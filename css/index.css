@@ -1,0 +1,27 @@
+h1 {
+  color: white;
+  font-size: 230%;
+  font-family: "Book Antiqua";
+}
+
+
+p {
+  font-family: "Book Antiqua";
+  text-indent: 20px;
+  margin-left: 20px;
+  color: black;
+}
+img {
+  margin-left: 20px;
+  border-radius:5px;
+}
+#cont1 {
+  background-color:  #81D8D0;
+  width: 700px;
+  min-height: 280px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 25px;
+  border-radius:10px;
+
+}
