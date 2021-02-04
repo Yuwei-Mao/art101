@@ -37,13 +37,16 @@ function superUserNameSorter(userName) {
 // shuffleUserName (for Task X: bonus!) - a function that shuffle the username,
 // and capitalize the name.
 function shuffleUserName(userName) {
-  //split the name into array
+  // split the name into array
   var nameArray = userName.split('');
+  // shuffle the array by sort in a random function.
   var shuffledArray = nameArray.sort(function() {return .5 - Math.random();});
   var newUserName = shuffledArray.join("").split(" ").join("").toLowerCase();
+  // get a number between 0 to lenth of newUserName and split by this number into 2 parts
   var n = Math.round(newUserName.length * Math.random());
   var p1 = newUserName.substr(0,n);
   var p2 = newUserName.substring(n);
+  // make each part's first letter uppercase.
   var p1a = p1.split('');
   p1a[0] = p1a[0].toUpperCase();
   var p2a = p2.split('');
