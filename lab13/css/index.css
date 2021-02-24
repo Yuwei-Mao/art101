@@ -1,0 +1,83 @@
+h1 {
+  color: Black;
+  font-size: 200%;
+  font-family: "Book Antiqua";
+  text-align:center;
+}
+h2 {
+  color: #4B0082;
+  font-size: 180%;
+  font-family: "Book Antiqua";
+}
+
+h3 {
+
+  font-size: 110%;
+  font-family: "Times";
+  font-weight: 900;
+}
+
+p {
+  font-family: "Book Antiqua";
+  text-indent: 20px;
+  margin-left: 20px;
+  color: black;
+
+}
+img {
+  margin-left: 20px;
+  border-radius:5px;
+}
+div {
+  background-color:  #81D8D0;
+  width: 1000px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 25px;
+  border-radius:10px;
+
+}
+
+.in-out  {
+
+  background-color:  #FFEBCD;
+  width: 800px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 25px;
+  border-radius:3px;
+  border:3px solid #00f;
+  border-color: black;
+}
+
+.out{
+  column-width: 200px;
+}
+
+ul{
+  font-family: "Book Antiqua";
+}
+
+ol{
+  font-family: "Book Antiqua";
+}
+
+pre{
+  font-style: italic;
+}
+#p2{
+  font-family: "Book Antiqua";
+  color: red;
+}
+
+.ccwhite{
+  background-color: white;
+}
+
+.ccRed {
+  background-color: red;
+}
+
+.ccBlue{
+  background-color: blue;
+}
